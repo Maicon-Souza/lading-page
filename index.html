@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ops! Esse era um teste 😮</title>
+  <style>
+    body {
+      font-family: "Inter", Arial, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+      padding: 28px 30px;
+      width: 420px;
+      text-align: center;
+      animation: fadeIn 0.5s ease;
+    }
+
+    .logo {
+      width: 90px;
+      border-radius: 0%;
+      margin-bottom: 0px;
+    }
+
+    h1 {
+      color: #000000; /* cor primária */
+      font-size: 1.4rem;
+      margin: 6px 0 8px;
+    }
+
+    p {
+      font-size: 0.95rem;
+      line-height: 1.45;
+      margin: 8px 0;
+    }
+
+    a.button {
+      display: inline-block;
+      background: #9e184b; /* cor primária */
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-weight: 600;
+      margin-top: 12px;
+      transition: background 0.2s;
+      font-size: 0.9rem;
+    }
+
+    a.button:hover {
+      background: #5e0e2d; /* cor secundária */
+    }
+
+    .tips {
+      background: #f8edf4; /* tom leve da cor primária para fundo */
+      border-left: 4px solid #9e184b; /* cor primária */
+      border-radius: 8px;
+      padding: 10px 14px;
+      text-align: left;
+      margin-top: 18px;
+      font-size: 0.85rem;
+    }
+
+    .tips h3 {
+      margin: 0 0 8px;
+      color: #5e0e2d; /* cor secundária */
+      font-size: 0.95rem;
+      text-align: center;
+    }
+
+    .tips p {
+      margin: 6px 0;
+    }
+
+    small {
+      display: block;
+      margin-top: 12px;
+      font-size: 0.75rem;
+      color: #777;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img class="logo" src="imagens/logo.png" alt="Logo YouX">
+    <h1>Ops! Esse era um teste 😮</h1>
+    <p>Você acabou de participar de uma simulação de phishing, um teste para te ajudar a reconhecer golpes e proteger suas informações.</p>
+    <p>Na correria do dia a dia, é normal cair em situações assim. O importante é aprender a identificar e se proteger!</p>
+    <p><strong>Saiba como se previnir</strong><br>
+    Acesse o treinamento de Segurança da Informação na <b>Engage</b>!</p>
+
+    <a href="https://youx.engage.bz/#/competition/23307/track/93877" target="_blank" class="button">Ir para o treinamento</a>
+
+    <div class="tips">
+      <h3>💡 Dicas rápidas do dia a dia </h3>
+      <p><b>Verifique o remetente:</b> confira o e-mail completo.</p>
+      <p><b>Desconfie de urgência:</b> mensagens “clique já” são comuns em golpes.</p>
+      <p><b>Ofertas boas demais?</b> Desconfie sempre!</p>
+    </div>
+
+    <small>Essa foi apenas uma simulação — nenhum dado foi coletado </small>
+  </div>
+</body>
+</html>
